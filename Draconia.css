@@ -1,0 +1,545 @@
+/* ROOTS */ 
+:root { 
+    --style:rgba( 110, 0, 0, 10);
+    --style2:rgba( 110, 0, 0, 0.3);
+    
+    }
+    
+    /*FONT IMPORT!
+    remember!
+    world-anvil does not recognize  apostrophes   */
+     
+    @font-face {
+      font-family: Marck Script;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+    }
+    
+    @font-face {
+      font-family: Modern Antiqua;
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/modernantiqua/v22/NGStv5TIAUg6Iq_RLNo_2dp1sL1DYWo.woff2);
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    
+    @font-face {
+      font-family: Patua One;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/patuaone/v16/ZXuke1cDvLCKLDcimxB44_lu.woff2);
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    
+    
+    
+    @font-face {
+      font-family:UnifrakturCook;
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/unifrakturcook/v19/IurA6Yli8YOdcoky-0PTTdkm56n05Xwy1oM.woff2) format(woff2);
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    
+    
+    /*MAIN CONTENT STYLING    */
+    .main-container{ 
+    border-style: solid; 
+    border-width: 5px;
+    border-color: var(--style2);
+    
+    }
+    
+    /*GENERAL PAGE STYLING*/
+    
+    .user-css b {
+     color: var(--style);
+    }
+    
+    .user-css strong {
+     font-size: 22px; 
+    }
+    
+    /* BACKGROUND STYLING*/
+    .user-css-presentation{
+    background:url(https://www.worldanvil.com/uploads/images/9e92d46b86f412f7da3485084154ee85.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    }
+    
+    .user-css{
+    
+    
+    background-postion: center;
+    background-size:cover;
+    
+    /* box-shadow: 0px 0px 15px 0px
+    #d8ad66; */
+    
+    }
+    
+    
+    
+    /*DROPCAPS */
+    .user-css u {
+          font-family: UnifrakturCook;
+         background: var(--style);
+      color: #ffffff;
+      float: left;
+      font-size: 3em;
+      line-height: 1;
+      margin: 0.1em 0.1em 0.2em 0;
+    border-radius:10px;
+      padding: 0.1em;
+    text-decoration:none;
+    border: 3px solid;
+    border-color:#050505;
+    
+    
+    }
+    .user-css-presentation .page { 
+    font-family: Patua One, Modern Antiqua;
+    }
+    /*WORLD NAV*/
+    .world-navigation-palette-trigger{
+    top:85px;
+    left:9.5px
+    }
+    
+    
+    /* NAVPANEL */
+    
+    .user-css .nav-panel {
+    display: none;
+    }
+    
+    @media (min-width: 992px) {
+    .user-css .nav-panel {
+    font-size: 15px;
+    
+    display: block;
+    position: fixed;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 5px;
+    min-width: 165px;
+    width: 25vw;
+    padding: 10px;
+      padding-bottom: 10px;
+    padding-bottom: 10vh;
+    margin-right: 470px;
+    right: 50vw;
+    margin-top: 3vh;
+    
+    }
+    }
+    
+    @media (min-width: 1200px) {
+    .user-css .nav-panel {
+    
+    margin-right: 580px;
+    
+    }
+    }
+    
+    @media (min-width: 1320px) {
+    .user-css .nav-panel {
+    
+    margin-right: 650px;
+    
+    }
+    }
+    
+    
+    .user-css .nav-panel-ribbon {
+    
+    background: url(https://www.worldanvil.com/uploads/images/4cde7b03743205327e4885282c94b8c1.png);
+    background-size: contain;
+    height: 10vh;
+    padding-right: 4%;
+    padding-top: 5%;
+    background-repeat: no-repeat;
+    text-align: right;
+    background-position: right;
+    
+    }
+    }
+    
+    
+    
+    /* FRONTPAGE HEADER EMBLISHMENT */
+    
+    
+    .user-css h1 {
+     color: var(--style);
+     font-size: 86px;
+     font-family: UnifrakturCook;
+    }
+    
+    .user-css h2 {
+     color:var(--style);
+     font-size: 76px;
+     font-family: UnifrakturCook;
+    
+    }
+    
+    .user-css h2, maps-list-header {
+     font-size: 40px;
+    }
+    
+    .user-css h3 {
+     color:var(--style);
+     font-size: 66px;
+     font-family: UnifrakturCook;
+    text-align: center;
+    
+    }
+    .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/d339f9568f007dded56ef3025c80a14a.svg);
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding: 5% 0px 9% 0px 
+    
+    
+    }
+    
+    .user-css.page-world-homepage h3, .user-css.page-world-homepage h4{ 
+    
+    background-image:url(https://www.worldanvil.com/uploads/images/d339f9568f007dded56ef3025c80a14a.svg);
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding: 5% 0px 9% 0px ;
+    
+    
+    }
+    
+    .user-css h4 {
+     color: var(--style);
+     font-size: 56px;
+     font-family: UnifrakturCook;
+    }
+    
+    
+    
+    .user-css h5 {
+     color: #050505;
+     font-size: 24px;
+    }
+    
+    author-item{  
+    
+    /* AUTHOR FONT STYLING*/
+    }
+    
+    .author-item {
+      font-family: Marck Script;
+      font-size: 26px;
+    
+    }
+    
+    /* NAV TABLE STYLING */
+    a, a:focus {
+     color: #050505;
+    }
+    
+    .user-css .table {
+       background: #f5f2eb00;
+    }
+    
+    .user-css  .table tr {
+       background: #f5f2eb00 !important;
+    }
+    
+    .user-css  .table td {
+       color: #fff;
+       background: #ac833e33;
+    }
+    
+    .user-css .table th {
+       background: #a6491b5e;
+    }
+    
+    .user-css .spoiler-content {
+       background: #ac833e45;
+    }
+    
+    .m-b-20 {
+      margin-bottom: 20px !important;
+    }
+    
+    /*ARTICLE STYLING*/
+    
+    .user-css .article-content-left {
+      font-size: 22px;
+      line-height: inherit;
+    }
+    
+    .article-content-left a{
+      color: var(--style);
+      font-weight: 500;
+    
+    }
+    
+    .user-css .article-content-right {
+      font-family: helvetica;
+      font-size: 20px;
+    
+    }
+    
+    .user-css .article-content-right .panel.panel-default {
+       border: 5px solid var(--style);
+    
+       font-family: Patua One, Modern Antiqua;
+    
+    }
+    
+    /* TOC STYLING */
+    
+    .user-css div.articletoc {
+     counter-reset: toc0;
+    }
+     
+    .user-css .articletoc .article-toc-indent-0 {
+     counter-reset: toc0;
+    }
+     
+    .user-css div.articletoc .article-toc-indent-0 {
+     counter-reset: toc1;
+    }
+     
+    .user-css div.articletoc .article-toc-indent-2 {
+     counter-reset: toc2;
+    }
+    
+    .user-css .articletoc .article-toc-indent-0::before {
+     counter-increment: toc0;
+     content: counter(toc0) 
+     url(https://2ww.worldanvil.com/uploads/images/a7c8f23a313ea88fa4049e5beba32d6c.png);
+     margin-right: 10px;
+    }
+     
+    .user-css .articletoc .article-toc-indent-1::before {
+     counter-increment: toc0;
+     content: counter(toc0)
+     url(https://www.worldanvil.com/uploads/images/a7c8f23a313ea88fa4049e5beba32d6c.png);
+     margin-right: 10px;
+    }
+     
+    .user-css .articletoc .article-toc-indent-2::before {
+     counter-increment: toc2;
+     content: counter(toc0)
+     url(https://www.worldanvil.com/uploads/images/a7c8f23a313ea88fa4049e5beba32d6c.png)
+     counter(toc2)
+     url(https://www.worldanvil.com/uploads/images/a7c8f23a313ea88fa4049e5beba32d6c.png);
+     margin-right: 10px;
+    }
+     
+    .user-css .articletoc .article-toc-indent-3::before {
+     counter-increment: toc3;
+     content: counter(toc0)
+     url(https://www.worldanvil.com/uploads/images/a7c8f23a313ea88fa4049e5beba32d6c.png)
+     counter(toc0)
+     url(https://www.worldanvil.com/uploads/images/a7c8f23a313ea88fa4049e5beba32d6c.png)
+     counter(toc2)
+     url(https://www.worldanvil.com/uploads/images/a7c8f23a313ea88fa4049e5beba32d6c.png)
+     counter(toc3);
+     margin-right: 10px;
+    }
+    
+    
+    /*ARTICLE UNDER PANEL STYLING */
+    .article-panel{
+    text-shadow: #000000 3px !important;
+    background-image:url(https://www.worldanvil.com/uploads/images/f8b5de7b694e40b51c6c9ddaaf135c5b.svg );
+    background-position:center;
+    background-size: auto;
+    background-repeat:no-repeat;
+    border-style: solid; 
+    border-width: 10px;
+    border-color: var(--style2)var(--style);
+    border-radius: 10px;
+    background-color:rgba(147, 74, 30,0.6);
+    
+    }
+    
+    .details {
+    padding-top:10%;
+    padding-bottom:10%;
+    
+    
+    margin:-3%;
+    }
+    
+    .details  .heading{ 
+    color:#ffffff !important;
+    }
+    .details .subheading{
+    color:#ffffff !important;
+    }
+    .details .date{
+    color:#ffffff !important;
+    
+    }
+    
+    .btn {
+     font-weight:none  !important;
+    }
+    
+    
+    
+    
+    
+    /*ARTICLE TAG STYLING*/ 
+    
+    /*schougunat(TAG)*/ 
+    .tag-schougunat .user-css u, { 
+    color:rgba(0,0,0, 10); 
+    }
+     :root .tag-schougunat { 
+    --style:rgba( 250, 250, 250, 10);
+    --style2:#020202;
+    
+    }
+    
+    .tag-schougunat .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/76f864f52eddce879e764e12cc690909.svg);
+    }
+    
+    .user-css.tag-schougunat u{
+    color :#000000;
+    
+    
+    }
+    
+    .tag-schougunat .article-content-left a{
+    text-shadow: 3px 3px 7px black;
+    }
+    
+    /*threethundertails(TAG)*/ 
+    .tag-threethundertails .user-css u, { 
+    color:#d7374a; 
+    }
+     :root .tag-threethundertails { 
+    --style:#d7374a;
+    --style2:#ffe066;
+    
+    }
+    
+    .tag-threethundertails .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/c6960468845e5db394905f84e45b04e0.svg);
+    }
+    
+    /*Skavenblight(TAG)*/ 
+    .tag-skavenblight .user-css u, { 
+    color:006600; 
+    }
+     :root .tag-skavenblight { 
+    --style:#006600;
+    --style2:#b9d411;
+    
+    }
+    
+    .tag-skavenblight .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/0c3a9284976873b049b40038b4141177.svg);
+    }
+    
+    /*Hetmanate(TAG)*/
+    .tag-hetmanate .user-css u {
+    color:#f17900;
+    }
+    
+     :root .tag-hetmanate { 
+    --style:#f17900;
+    --style2:#0300cc;
+    
+    }
+    
+    .tag-hetmanate .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/4cdf4706cf106746a321a7c0d809b364.svg);
+    }
+    
+    /*Odol(TAG)*/
+    .tag-odol .user-css u {
+    color:rgb#522c5b;
+    }
+    
+     :root .tag-odol { 
+    --style:#522c5b;
+    --style2:rgba(82, 44, 91, 0.3);
+    
+    }
+    
+    .tag-odol .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/09406998d33bd5731fb87d1ddf25b2d7.svg);
+    }
+    
+    /*BeranichHor(TAG)*/
+    .tag-BeranichHor .user-css u {
+    color:rgb#c63343;
+    }
+    
+     :root .tag-BeranichHor { 
+    --style:#c63343;
+    --style2:#316fc0;
+    
+    }
+    
+    .tag-BeranichHor .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/2a439a87c17ee28a3c0335b8be30fe6e.svg);
+    }
+    
+    
+    
+    /*Hazhou(TAG)*/
+    .tag-hazhou .user-css u {
+    color:#872461;
+    }
+    
+     :root .tag-hazhou { 
+    --style:#872461;
+    --style2:#f5d868;
+    
+    }
+    
+    .tag-hazhou .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/09406998d33bd5731fb87d1ddf25b2d7.svg);
+    }
+    
+    /*Faewild(TAG)*/
+    
+    .tag-faewild .user-css u {
+    color:#941884;
+    }
+    
+     :root .tag-faewild { 
+    --style:#941884;
+    --style2:#118d0f;
+    
+    }
+    
+    .tag-faewild .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/317a35a9ff1032fec09c6d527958e96d.svg);
+    }
+    
+    /*Akmenon(TAG)*/
+    
+    .tag-akmenon .user-css u {
+    color:#5B3963;
+    }
+    
+     :root .tag-akmenon { 
+    --style:#5B3963;
+    --style2:#3b3b3b;
+    
+    }
+    
+    .tag-akmenon .article-content h3{
+    background-image:url(https://www.worldanvil.com/uploads/images/883281c13e5d240b28da270c752b99ed.svg);
+    }
