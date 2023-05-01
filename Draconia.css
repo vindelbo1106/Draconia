@@ -394,7 +394,16 @@
     }
     
     
-    
+    /* MAP STYLING */
+
+    .user-css.area-highlight {
+      fill-opacity: 0;
+
+    }
+
+    .user-css .area-highlight:hover, .map-context-user-css .area-highlight:hover {
+      fill-opacity: 0.35;
+    }
     
     
     /*ARTICLE TAG STYLING*/ 
