@@ -404,6 +404,10 @@
     .user-css .area-highlight:hover, .map-context-user-css .area-highlight:hover {
       fill-opacity: 0.35;
     }
+
+    .user-css.htmlIcon {
+      background: none;
+    }
     
     
     /*ARTICLE TAG STYLING*/ 
