@@ -511,6 +511,18 @@
     background-image:url(https://www.worldanvil.com/uploads/images/2a439a87c17ee28a3c0335b8be30fe6e.svg);
     }
     
+    /* Kobildzan(TAG)*/
+
+    /*BeranichHor(TAG)*/
+    .tag-kobildzan .user-css u {
+      color:rgb#c63343;
+    }
+    
+      :root .tag-kobildzan { 
+    --style:#333333;
+    --style2:#cbb351;
+    
+    }
     
     
     /*Hazhou(TAG)*/
