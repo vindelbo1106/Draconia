@@ -582,12 +582,16 @@
       color:#8cd33e;
       }
       
-       :root .tag-GUN { 
-      --style:#8cd33e;
-      --style2:#193380;
-      
+      :root .tag-GUN { 
+    --style:#8cd33e;
+    --style2:#193380;
+    
       }
-      
-      .tag-GUN .article-content h3{
-      background-image:url(https://www.worldanvil.com/uploads/images/e4cd134793f48b18bb9d2482088b33a9.svg);
-      }
+    
+    .tag-GUN .article-content h3{
+     background-image:url(https://www.worldanvil.com/uploads/images/e4cd134793f48b18bb9d2482088b33a9.svg);
+     }
+
+    .tag-GUN .article-content-left a{
+      text-shadow: 3px 3px 7px black;
+    }
