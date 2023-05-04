@@ -575,3 +575,19 @@
     .tag-akmenon .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/883281c13e5d240b28da270c752b99ed.svg);
     }
+
+    /* Garden of the Sun(TAG)*/
+
+    .tag-GUN .user-css u {
+      color:#8cd33e;
+      }
+      
+       :root .tag-GUN { 
+      --style:#8cd33e;
+      --style2:#193380;
+      
+      }
+      
+      .tag-GUN .article-content h3{
+      background-image:url(https://www.worldanvil.com/uploads/images/e4cd134793f48b18bb9d2482088b33a9.svg);
+      }
