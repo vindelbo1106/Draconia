@@ -619,4 +619,17 @@
     .tag-RRD .article-content h3 {
       background-image:url(https://www.worldanvil.com/uploads/images/f26e99643356084b7026607f0424f7f7.svg)
     }
-    
+
+     /* Elzinia(TAG) */
+     .tag-EIA .user-css u {
+      color:#bf000a;
+    }
+
+    :root .tag-EIA {
+      --style:#bf000a;
+      --style2:##d0832c;
+    }
+
+    .tag-EIA .article-content h3 {
+      background-image:url(https://www.worldanvil.com/uploads/images/d857755fd47a0c2ede3b5f8e43fbe8fe.svg)
+    }
