@@ -591,3 +591,18 @@
     .tag-GUN .article-content h3{
      background-image:url(https://www.worldanvil.com/uploads/images/e4cd134793f48b18bb9d2482088b33a9.svg);
      }
+
+    /* Barak-Khazal(TAG) */
+    .tag-BAL .user-css u {
+      color:#cf3c4e;
+    }
+
+    :root .tag-BAL {
+      --style:#cf3c4e;
+      --style2:#24b45b;
+    }
+
+    .tag-BAL .article-content h3 {
+      background-image:url(https://www.worldanvil.com/uploads/images/70b6722a16991ac76a9a87098d973892.svg)
+    }
+    
