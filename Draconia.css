@@ -605,4 +605,18 @@
     .tag-BAL .article-content h3 {
       background-image:url(https://www.worldanvil.com/uploads/images/70b6722a16991ac76a9a87098d973892.svg)
     }
+
+    /* Reikmord(TAG) */
+    .tag-RRD .user-css u {
+      color:#ff2121;
+    }
+
+    :root .tag-RRD {
+      --style:#ff2121;
+      --style2:#ffcb21;
+    }
+
+    .tag-RRD .article-content h3 {
+      background-image:url(https://www.worldanvil.com/uploads/images/f26e99643356084b7026607f0424f7f7.svg)
+    }
     
