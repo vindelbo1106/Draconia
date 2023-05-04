@@ -413,20 +413,20 @@
     /*ARTICLE TAG STYLING*/ 
     
     /*schougunat(TAG)*/ 
-    .tag-schougunat .user-css u{ 
+    .tag-SAT .user-css u{ 
     color:rgba(0,0,0,10); 
     }
-     :root .tag-schougunat { 
+     :root .tag-SAT { 
     --style:rgba( 250, 250, 250, 10);
     --style2:#020202;
     
     }
     
-    .tag-schougunat .article-content h3{
+    .tag-SAT .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/76f864f52eddce879e764e12cc690909.svg);
     }
     
-    .user-css.tag-schougunat u{
+    .user-css.tag-SAT u{
     color :#000000;
     
     
@@ -437,142 +437,141 @@
     }
     
     /*threethundertails(TAG)*/ 
-    .tag-threethundertails .user-css u{ 
+    .tag-TLS .user-css u{ 
     color:#d7374a
 
     }
 
-     :root .tag-threethundertails { 
+     :root .tag-TLS { 
     --style:#d7374a;
     --style2:#ffe066;
     
     }
     
-    .tag-threethundertails .article-content h3{
+    .tag-TLS .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/c6960468845e5db394905f84e45b04e0.svg);
     }
     
     /*Skavenblight(TAG)*/ 
-    .tag-skavenblight .user-css u{ 
+    .tag-SHT .user-css u{ 
     color:006600; 
     }
-     :root .tag-skavenblight { 
+     :root .tag-SHT { 
     --style:#006600;
     --style2:#b9d411;
     
     }
     
-    .tag-skavenblight .article-content h3{
+    .tag-SHT .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/0c3a9284976873b049b40038b4141177.svg);
     }
     
     /*Hetmanate(TAG)*/
-    .tag-hetmanate .user-css u {
+    .tag-HTE.user-css u {
     color:#f17900;
     }
     
-     :root .tag-hetmanate { 
+     :root .tag-HTE { 
     --style:#f17900;
     --style2:#0300cc;
     
     }
     
-    .tag-hetmanate .article-content h3{
+    .tag-HTE .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/4cdf4706cf106746a321a7c0d809b364.svg);
     }
     
-    /*Odol(TAG)*/
-    .tag-odol .user-css u {
+    /*Odoli(TAG)*/
+    .tag-OLI .user-css u {
     color:rgb#522c5b;
     }
     
-     :root .tag-odol { 
+     :root .tag-OLI { 
     --style:#522c5b;
     --style2:rgba(82, 44, 91, 0.3);
     
     }
     
-    .tag-odol .article-content h3{
+    .tag-OLI .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/09406998d33bd5731fb87d1ddf25b2d7.svg);
     }
     
     /*BeranichHor(TAG)*/
-    .tag-BeranichHor .user-css u {
+    .tag-BOR .user-css u {
     color:rgb#c63343;
     }
     
-     :root .tag-BeranichHor { 
+     :root .tag-BOR { 
     --style:#c63343;
     --style2:#316fc0;
     
     }
     
-    .tag-BeranichHor .article-content h3{
+    .tag-BOR .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/2a439a87c17ee28a3c0335b8be30fe6e.svg);
     }
     
     /* Kobildzan(TAG)*/
 
-    /*BeranichHor(TAG)*/
-    .tag-kobildzan .user-css u {
+    .tag-KAN .user-css u {
       color:rgb#c63343;
     }
     
-      :root .tag-kobildzan { 
+      :root .tag-KAN { 
     --style:#333333;
     --style2:#cbb351;
     
     }
 
-    .tag-kobildzan .article-content h3{
+    .tag-KAN .article-content h3{
       background-image:url(https://www.worldanvil.com/uploads/images/efa42bbbbcd85aab5798cef7b7572083.svg);
     }
     
     
     /*Hazhou(TAG)*/
-    .tag-hazhou .user-css u {
+    .tag-HOU .user-css u {
     color:#872461;
     }
     
-     :root .tag-hazhou { 
+     :root .tag-HOU { 
     --style:#872461;
     --style2:#f5d868;
     
     }
     
-    .tag-hazhou .article-content h3{
+    .tag-HOU .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/09406998d33bd5731fb87d1ddf25b2d7.svg);
     }
     
     /*Faewild(TAG)*/
     
-    .tag-faewild .user-css u {
+    .tag-FLD .user-css u {
     color:#941884;
     }
     
-     :root .tag-faewild { 
+     :root .tag-FLD { 
     --style:#941884;
     --style2:#118d0f;
     
     }
     
-    .tag-faewild .article-content h3{
+    .tag-FLD .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/317a35a9ff1032fec09c6d527958e96d.svg);
     }
     
     /*Akmenon(TAG)*/
     
-    .tag-akmenon .user-css u {
+    .tag-AON .user-css u {
     color:#5B3963;
     }
     
-     :root .tag-akmenon { 
+     :root .tag-AON { 
     --style:#5B3963;
     --style2:#3b3b3b;
     
     }
     
-    .tag-akmenon .article-content h3{
+    .tag-AON .article-content h3{
     background-image:url(https://www.worldanvil.com/uploads/images/883281c13e5d240b28da270c752b99ed.svg);
     }
 
