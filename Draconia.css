@@ -166,7 +166,8 @@
     background-repeat: no-repeat;
     text-align: right;
     background-position: right;
-    
+    display:block;
+    text-decoration:none; 
     }
     
     
