@@ -288,6 +288,16 @@
       font-weight: 500;
     
     }
+
+    .user-css h5 {
+      font-size: 1em;
+    }
+
+    /* SIDEBAR STYLING */
+
+    .user-css .article-content-right .col-md-5 {
+      word-wrap: normal !important;
+    }
     
     .user-css .article-content-right {
       font-family: helvetica;
@@ -300,6 +310,10 @@
     
        font-family: Patua One, Modern Antiqua;
     
+    }
+
+    .user-css .article-content-right .m-t-20 {
+      border-style: none;
     }
     
     /* TOC STYLING */
