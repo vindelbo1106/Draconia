@@ -686,3 +686,17 @@
     .tag-MIA .article-content h3 {
       background-image:url(https://www.worldanvil.com/uploads/images/372279be5c8ade28f654be48bd4d9aed.svg)
     }
+
+    /* Pirakin(TAG) */
+    .tag-PIN .user-css u {
+      color:#000000;
+    }
+
+    :root .tag-PIN {
+      --style:#000000;
+      --style2:#f9a900;
+    }
+
+    .tag-PIN .article-content h3 {
+      background-image:url(https://www.worldanvil.com/uploads/images/76f864f52eddce879e764e12cc690909.svg)
+    }
