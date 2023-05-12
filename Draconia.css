@@ -641,9 +641,23 @@
 
     :root .tag-EIA {
       --style:#bf000a;
-      --style2:##d0832c;
+      --style2:#d0832c;
     }
 
     .tag-EIA .article-content h3 {
       background-image:url(https://www.worldanvil.com/uploads/images/d857755fd47a0c2ede3b5f8e43fbe8fe.svg)
+    }
+
+    /* Iskayinsuyu(TAG) */
+    .tag-IYU .user-css u {
+      color:#fcb72e;
+    }
+
+    :root .tag-IYU {
+      --style:#fcb72e;
+      --style2:#ffffff;
+    }
+
+    .tag-IYU .article-content h3 {
+      background-image:url(https://www.worldanvil.com/uploads/images/cb182f1c3ada9553fb94a6dbc058f46b.svg)
     }
