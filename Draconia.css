@@ -672,3 +672,17 @@
     .tag-IYU .article-content h3 {
       background-image:url(https://www.worldanvil.com/uploads/images/cb182f1c3ada9553fb94a6dbc058f46b.svg)
     }
+
+    /* Meridania(TAG) */
+    .tag-MIA .user-css u {
+      color:#376cb3;
+    }
+
+    :root .tag-MIA {
+      --style:#376cb3;
+      --style2:#922e2e;
+    }
+
+    .tag-MIA .article-content h3 {
+      background-image:url(https://www.worldanvil.com/uploads/images/372279be5c8ade28f654be48bd4d9aed.svg)
+    }
