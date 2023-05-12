@@ -447,7 +447,7 @@
     
     }
     
-    .tag-schougunat .article-content-left a{
+    .tag-SAT .article-content-left a{
     text-shadow: 3px 3px 7px black;
     }
     
@@ -651,7 +651,12 @@
     /* Iskayinsuyu(TAG) */
     .tag-IYU .user-css u {
       color:#fcb72e;
+      
     }
+    .tag-IYU .article-content-left a{
+      text-shadow: 3px 3px 7px black;
+      }
+
 
     :root .tag-IYU {
       --style:#fcb72e;
