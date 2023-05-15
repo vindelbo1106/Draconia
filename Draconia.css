@@ -459,7 +459,7 @@
 
      :root .tag-TLS { 
     --style:#d7374a;
-    --style2:#ffe066;
+    --style2:##;
     
     }
     
@@ -699,4 +699,18 @@
 
     .tag-PIN .article-content h3 {
       background-image:url(https://www.worldanvil.com/uploads/images/76f864f52eddce879e764e12cc690909.svg)
+    }
+
+    /* Terradon(TAG) */
+    .tag-TON .user-css u {
+      color:#cc0e25;
+    }
+
+    :root .tag-TON {
+      --style:#cc0e25;
+      --style2:#f6e04b;
+    }
+
+    .tag-TON .article-content h3 {
+      background-image:url(https://www.worldanvil.com/uploads/images/d857755fd47a0c2ede3b5f8e43fbe8fe.svg)
     }
